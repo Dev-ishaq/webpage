@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(46, 42, 42);
+}
+.header{
+    color: orange;
+ ;
+   
+}
+ul li{
+    float: right;
+    margin: 20px;
+    /* position: relative; */
+    right: 35%;
+    bottom: 90px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    position: sticky;
+    color: aliceblue;
+    font-style: bold;
+}
+ul li a::after{
+    content: "";
+    background-color: orange;
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ul li a:hover::after{
+    width: 100%;
+    
+}
+.all{
+    float: right;
+    /* position: relative; */
+    bottom: 70px;
+    left: 35%;
+    box-shadow: none;
+}
+.srch{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border: 1px solid orange;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+    outline: none;
+}
+.btn{
+    background-color: orange;
+    color: aliceblue;
+    height: 30px;
+    width: 75px;
+    border: 1px solid orange;
+    border-top-right-radius: 10px;
+    /* position: absolute; */
+}
+.btn:hover{
+    color: rgb(12, 12, 11);
+}
+.web{
+    font-size: 50px;
+    color: white;
+}
+.span{
+    color: orange;
+    font-size: 40px;
+    /* position: relative; */
+    bottom: 50px;
+}
+.co{
+    color: white;
+    font-size: 45px;
+    /* position: relative; */
+    bottom: 100px;
+}
+.lorem{
+    color: white;
+    word-spacing: 3px;
+    font-family: monospace;
+    /* position: relative; */
+    bottom: 115px;
+}
+.join button[type="JOINUS"]{
+    color: rgb(0, 0, 0);
+    width: 15%;
+    height: 40px;
+    background-color: orange;
+    border-radius: 15px;
+    /* position: relative; */
+    bottom: 85px;
+    left: 5%;
+    border: 2px solid orange;
+}
+.join button:hover[type="submit"]{
+    background-color: rgb(233, 163, 34);
+}
+.form{
+    background-color: black;
+    /* padding: 15px; */
+    width: 20%;
+    height: 50vh;
+    border-radius: 25px;
+    position: absolute;
+    top: 10rem;
+    right: 7rem;
+    /* right: 12%;
+    bottom: 510px; */
+    float: right;
+}
+.form, form, legend :focus{
+    text-align: center;
+    color: white;
+}
+.form input[type="Username"], .form input[type="password"]{
+    text-align: center;
+    border: 1px solid rgb(160, 86, 59);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: black;
+    color: rgb(163, 160, 154);
+    height: 50px;
+}
+.form button[type="submit"]{
+    background-color: black;
+    border: 1px solid rgb(160, 86, 59);
+    border-radius: 5px;
+    color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.form button:hover[type="submit"]{
+    color: gray;
+}
+.link a{
+    text-decoration: none;
+    color: orange;
+}
+.link {
+    color: rgb(30, 30, 134);
+}
+.log{
+    color: white;
+}
+.hr{
+    color: white;
+}
+.tag a{
+    padding: 5px;
+}
+.tag a:hover{
+   color: rgb(255, 174, 0);
+}
+.pp{
+    position: relative;
+    bottom: 7px;
+}
+.ppp{
+    position: relative;
+    bottom: 15px;
+}
+.ppp a:hover{
+    color: blue;
+}
+p{
+    position: relative;
+    bottom: 20px;
+}
+.tag a{
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
