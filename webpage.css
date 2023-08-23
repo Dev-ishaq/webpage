@@ -9,7 +9,6 @@ body{
 ul li{
     float: right;
     margin: 20px;
-    /* position: relative; */
     right: 35%;
     bottom: 90px;
     list-style: none;
