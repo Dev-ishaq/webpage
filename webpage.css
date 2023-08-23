@@ -33,7 +33,6 @@ ul li a:hover::after{
 }
 .all{
     float: right;
-    /* position: relative; */
     bottom: 70px;
     left: 35%;
     box-shadow: none;
