@@ -15,7 +15,8 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    position: sticky;
+    position: absolute;
+    top: 0;
     color: aliceblue;
     font-style: bold;
 }
